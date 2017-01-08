@@ -1,0 +1,42 @@
+/*
+COMP 2406 - Assignment 4
+Name: Alexei Tipenko (100995947)
+Date: Wednsday, November 23rd, 2016
+*/
+
+body {
+  background-color: #343D46;
+  color: white;
+  font-style: arial;
+  font-size: 20px;
+}
+
+#inputText, #chatLog{
+  border: solid 1px #4db8ff;
+  width: 80%;
+  background-color: black;
+  color: white;
+}
+#chatLog{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+#contents {
+  width: 100%;
+  height: 200px;
+}
+
+#chatLogDiv {
+  float: left;
+  width: 80%;
+  height: 100%
+}
+
+#userListDiv {
+  height: 100%;
+  overflow: auto;
+  list-style-type: none;
+}

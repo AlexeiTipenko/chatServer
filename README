@@ -1,0 +1,47 @@
+COMP 2406 - Assignment 4
+Name: Alexei Tipenko (100995947)
+Date: Wednsday, November 23rd, 2016
+
+* Developed in MacOS *
+* Tested with Chrome browser *
+
+IMPORTANT NOTE:
+This app was developped in macOS, so blockiing a user using ctrl key was not actually tested.
+Program checks for ctrl key and command key being clicked on (on mac)
+
+
+Program: Socket-based messaging app that includes functionality for sending private messages
+         to users and also being able to block them.
+
+
+Files (in folder a4):
+
+1) app.js (server)
+2) public_html folder
+      - index.html (html page for the website)
+      - scripts.js (The javascript that makes changes to html file)
+      - 404.html (Error html page displayed when page does not exit)
+      - favicon.ico
+      - style.css (styling sheet for html elements)
+3) node_module folder
+4) readMe.txt
+
+
+Usage:
+
+1) Navigate to proper directory/folder of the app.js file inside the terminal (a4).
+2) type 'node' and enter (make sure node is installed on your computer)
+3) type the following, then press enter:
+
+    node app.js
+
+(The console will display a message that the server is running)
+
+4) Go to your browser (preferably Chrome) and type in "http://localhost:2406/"
+   into the url bar. Press enter.
+
+
+Notes:
+
+To send a private message, double click on a users name on the user list (right-hand side).
+To block that same user, press ctrl (or command), then double click.
